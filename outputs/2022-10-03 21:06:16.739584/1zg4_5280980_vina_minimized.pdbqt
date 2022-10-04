@@ -1,0 +1,28 @@
+REMARK SMILES O=C1C[C@H]2O/C(=C\CO)[C@H]([C]([O-])O)N12
+REMARK SMILES IDX 5 1 1 2 14 3 4 4 10 5 3 6 2 7 6 8 7 9 11 10 13 11 12 12 8 13
+REMARK SMILES IDX 9 14
+REMARK H PARENT
+REMARK INDEX MAP 1 1 2 2 6 3 7 4 8 5 9 6 10 7 11 8 13 9 12 10 3 11 4 12 14 13
+REMARK INDEX MAP 5 14
+REMARK Flexibility Score: inf
+ROOT
+ATOM      1  O   UNL     1       2.767   3.237  -0.414  1.00  0.00    -0.472 OA
+ATOM      2  O   UNL     1       4.342   5.634   2.613  1.00  0.00    -0.275 OA
+ATOM      3  N   UNL     1       4.412   4.712   0.442  1.00  0.00    -0.295 N 
+ATOM      4  C   UNL     1       4.023   3.307   0.304  1.00  0.00     0.183 C 
+ATOM      5  C   UNL     1       3.634   5.535  -0.447  1.00  0.00     0.108 C 
+ATOM      6  C   UNL     1       4.021   3.224   1.840  1.00  0.00     0.083 C 
+ATOM      7  C   UNL     1       4.316   4.735   1.805  1.00  0.00     0.231 C 
+ATOM      8  C   UNL     1       2.575   4.550  -0.885  1.00  0.00     0.121 C 
+ATOM      9  C   UNL     1       1.496   4.862  -1.612  1.00  0.00    -0.019 C 
+ENDROOT
+BRANCH   5  10
+ATOM     10  C   UNL     1       4.505   5.905  -1.602  1.00  0.00     0.035 C 
+ATOM     11  O   UNL     1       3.934   6.891  -2.335  1.00  0.00    -0.403 OA
+ATOM     12  O   UNL     1       5.586   5.394  -1.858  1.00  0.00    -0.826 OA
+ENDBRANCH   5  10
+BRANCH   9  13
+ATOM     13  C   UNL     1       0.460   3.874  -2.035  1.00  0.00     0.065 C 
+ATOM     14  O   UNL     1      -0.820   4.478  -1.926  1.00  0.00    -0.392 OA
+ENDBRANCH   9  13
+TORSDOF 2
