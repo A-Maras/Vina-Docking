@@ -1,0 +1,11 @@
+name, description, link
+arylomycinA2, cyclo-peptide 1b12 SPase I inhibitor, https://pubchem.ncbi.nlm.nih.gov/compound/9988024
+BAL0019193, beta-sultam 1b12 SPase I inhibitor,
+CID448697, 1tem inhibitor, https://pubchem.ncbi.nlm.nih.gov/compound/448697
+CID5280980, clavulanic acid a beta-lactamase inhibitor,  https://pubchem.ncbi.nlm.nih.gov/compound/5280980
+CID5287796, 6 alpha hydroxymethyl penicilloic acid 1ero TEM-1 E. coli Beta-lactamase acyl inhibitor, https://pubchem.ncbi.nlm.nih.gov/compound/5287796
+CID9926217, penem 1b12 SPase I inhibitor, https://pubchem.ncbi.nlm.nih.gov/compound/9926217
+CID44150203, purchaseable 3D similarity searched docking ligand, https://pubchem.ncbi.nlm.nih.gov/compound/448697
+penicillin_g, beta-lactamase 1fqg inhibitor, https://pubchem.ncbi.nlm.nih.gov/compound/5904
+PK150, SPsB activating ligand, https://pubchem.ncbi.nlm.nih.gov/compound/132190620
+test, test compound CID5291 from Vina, https://pubchem.ncbi.nlm.nih.gov/compound/5291

@@ -18,7 +18,6 @@ def vina_dock(receptor_file, ligand_file, map_profile):
   v.set_receptor('receptors/' + str(receptor_file) + '.pdbqt')
   v.set_ligand_from_file('ligands/' +str(ligand_file) + '.pdbqt')
 
-  v.compute_vina_maps(center=[0.,0.,0.], box_size=[30, 30, 30])
   # Compute vina maps
   maps = map_profile.lower()
   if maps == 'default':

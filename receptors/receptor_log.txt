@@ -1,0 +1,7 @@
+name, description, link
+1b12, LepB E. coli SPase I, https://www.rcsb.org/structure/1B12
+1ero, TEM-1 Beta-lactamase complexed with inhibitor CID5287796, https://www.rcsb.org/structure/1ERO
+1tem, TEM-1 Beta-lactamase complexed with acylated inhibitor CID448697, https://www.rcsb.org/structure/1TEM
+1zg4, TEM-1 Beta-lactamase, https://www.rcsb.org/structure/1ZG4
+4wvg, SPsB S. aureus SPase I, https://www.rcsb.org/structure/4WVG
+test, 1iep, https://www.rcsb.org/structure/1IEP

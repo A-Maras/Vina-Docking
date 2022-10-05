@@ -3,12 +3,11 @@ import autodock_vina
 import pdb_coord_parse
 
 # Meeko: Preparation of pdbqt files, mainly for ligands
-#meeko_prep.pdbqt_prep('BAL0019193')
+meeko_prep.pdbqt_prep('BAL4850C')
 
 # Autodock Vina: Molecular Docking
-autodock_vina.vina_dock('1b12', 'BAL0019193', 'default')
-#autodock_vina.vina_dock('4wvg', 'BAL0019193')
-
+#autodock_vina.vina_dock('1b12','44359165','default')
+#autodock_vina.vina_dock('4wvg','PK150','default')
 
 # PDB Coordinate Parsing
 #pdb = pdb_coord_parse.parsePDB('1ZG4.pdb')
