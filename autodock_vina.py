@@ -9,7 +9,7 @@ def create_dir(directory):
         os.makedirs(directory)
 
 
-def vina_dock(receptor_file, ligand_file, map_profile):
+def vina_dock(receptor_file, ligand_file, grid_coord, grid_size):
     # Create output folder for the energy minimization and docking files, plus the poses binding affinity
     creation_time = datetime.now()
     create_dir('outputs/' + str(creation_time))
@@ -21,18 +21,16 @@ def vina_dock(receptor_file, ligand_file, map_profile):
     v.set_ligand_from_file('ligands/' + str(ligand_file) + '.pdbqt')
 
     # Compute vina maps
-    maps = map_profile.lower()
-    if maps == 'default':
-        v.compute_vina_maps(center=[64.549, 23.118, 10.203], box_size=[26, 30, 30])
-    elif maps == 'testcase_1iep':
-        v.compute_vina_maps(center=[15.190, 53.903, 16.917], box_size=[20, 20, 20])
-    elif maps == 'testcase_1fpu':
-        v.compute_vina_maps(center=[12.201, 54.303, 15.54], box_size=[30, 38, 22])
-    elif maps == 'arylomycin':  #4.116,-7.565,4.912 - used for docking Arylomycin A2 30, 30, 30 size
-        v.compute_vina_maps(center=[4.116,-7.565,4.912],
-                            box_size=[30, 30, 30])
-    else:
-        print('unknown map profile: enter "default" or "testcase"')
+    v.compute_vina_maps(center=grid_coord, box_size=grid_size)
+    #elif maps == 'testcase_1iep':
+        #v.compute_vina_maps(center=[15.190, 53.903, 16.917], box_size=[20, 20, 20])
+   # elif maps == 'testcase_1fpu':
+      #  v.compute_vina_maps(center=[12.201, 54.303, 15.54], box_size=[30, 38, 22])
+    #elif maps == 'arylomycin':  #4.116,-7.565,4.912 - used for docking Arylomycin A2 30, 30, 30 size
+       # v.compute_vina_maps(center=[4.116,-7.565,4.912],
+                           # box_size=[30, 30, 30])
+    #else:
+        #print('unknown map profile: enter "default" or "testcase"')
 
     # Score the current pose
     energy = v.score()
