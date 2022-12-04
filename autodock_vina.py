@@ -46,7 +46,7 @@ def vina_dock(receptor_file, ligand_file, grid_coord, grid_size):
                  overwrite=True)
 
     # Dock the ligand
-    v.dock(exhaustiveness=36, n_poses=20)
+    v.dock(exhaustiveness=32, n_poses=20)
     v.write_poses('outputs/' + str(creation_time) + '/' + str(receptor_file) +
                   '_' + str(ligand_file) + '_vina.pdbqt',
                   n_poses=20,

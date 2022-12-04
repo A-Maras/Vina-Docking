@@ -1,0 +1,39 @@
+REMARK SMILES O=C(O)c1sccc1S(=O)(=O)Nc1ccc(Cl)cc1
+REMARK SMILES IDX 5 1 8 2 4 3 7 4 6 5 9 6 10 7 11 8 12 9 13 11 17 12 16 13
+REMARK SMILES IDX 15 14 18 15 14 16 19 17 2 18 1 19 3 20
+REMARK H PARENT 12 10 3 21
+REMARK Flexibility Score: inf
+ROOT
+ATOM      1  S   UNL     1      24.155   7.760  17.649  1.00  0.00    -0.136 S 
+ATOM      2  C   UNL     1      24.667   6.803  15.360  1.00  0.00     0.113 A 
+ATOM      3  C   UNL     1      24.570   6.425  16.659  1.00  0.00     0.133 A 
+ATOM      4  C   UNL     1      24.413   8.164  15.125  1.00  0.00     0.035 A 
+ATOM      5  C   UNL     1      24.116   8.816  16.302  1.00  0.00     0.067 A 
+ENDROOT
+BRANCH   2   6
+ATOM      6  S   UNL     1      25.074   5.695  14.062  1.00  0.00     0.263 S 
+ATOM      7  O   UNL     1      26.190   4.951  14.615  1.00  0.00    -0.201 OA
+ATOM      8  O   UNL     1      25.244   6.533  12.892  1.00  0.00    -0.201 OA
+BRANCH   6   9
+ATOM      9  N   UNL     1      23.723   4.635  13.856  1.00  0.00    -0.280 N 
+ATOM     10  H   UNL     1      23.479   4.098  14.700  1.00  0.00     0.180 HD
+BRANCH   9  11
+ATOM     11  C   UNL     1      22.578   5.173  13.195  1.00  0.00     0.049 A 
+ATOM     12  Cl  UNL     1      18.959   6.874  11.108  1.00  0.00    -0.084 Cl
+ATOM     13  C   UNL     1      20.340   6.225  11.905  1.00  0.00     0.041 A 
+ATOM     14  C   UNL     1      21.344   5.602  11.163  1.00  0.00     0.022 A 
+ATOM     15  C   UNL     1      20.454   6.322  13.291  1.00  0.00     0.022 A 
+ATOM     16  C   UNL     1      22.462   5.076  11.809  1.00  0.00     0.028 A 
+ATOM     17  C   UNL     1      21.573   5.796  13.937  1.00  0.00     0.028 A 
+ENDBRANCH   9  11
+ENDBRANCH   6   9
+ENDBRANCH   2   6
+BRANCH   3  18
+ATOM     18  C   UNL     1      24.752   5.149  17.275  1.00  0.00     0.347 C 
+ATOM     19  O   UNL     1      24.535   4.035  16.750  1.00  0.00    -0.245 OA
+BRANCH  18  20
+ATOM     20  O   UNL     1      25.211   5.226  18.565  1.00  0.00    -0.477 OA
+ATOM     21  H   UNL     1      25.327   4.335  18.961  1.00  0.00     0.297 HD
+ENDBRANCH  18  20
+ENDBRANCH   3  18
+TORSDOF 5

@@ -1,0 +1,42 @@
+REMARK SMILES C=CCOC(=O)C1=CS[C@H]2[C@@H]([C@@H](C)OC(C)=O)C(=O)N12
+REMARK SMILES IDX 9 1 8 2 7 3 20 4 10 5 11 6 18 7 19 8 12 9 13 10 14 11 15 12
+REMARK SMILES IDX 16 13 17 14 5 15 6 16 4 17 3 18 2 19 1 20
+REMARK H PARENT
+REMARK Flexibility Score: inf
+ROOT
+ATOM      1  S   UNL     1      66.480  20.175  11.481  1.00  0.00    -0.105 SA
+ATOM      2  C   UNL     1      65.663  20.728  10.028  1.00  0.00     0.077 C 
+ATOM      3  C   UNL     1      65.011  21.891  10.126  1.00  0.00     0.137 C 
+ATOM      4  N   UNL     1      65.013  22.462  11.374  1.00  0.00    -0.291 N 
+ATOM      5  C   UNL     1      65.558  21.534  12.382  1.00  0.00     0.169 C 
+ATOM      6  C   UNL     1      66.385  22.720  12.938  1.00  0.00     0.153 C 
+ATOM      7  C   UNL     1      65.928  23.444  11.662  1.00  0.00     0.238 C 
+ATOM      8  O   UNL     1      66.288  24.421  11.047  1.00  0.00    -0.274 OA
+ENDROOT
+BRANCH   6   9
+ATOM      9  C   UNL     1      67.891  22.611  13.136  1.00  0.00     0.189 C 
+ATOM     10  C   UNL     1      68.503  24.005  13.264  1.00  0.00     0.054 C 
+BRANCH   9  11
+ATOM     11  O   UNL     1      68.100  21.915  14.387  1.00  0.00    -0.462 OA
+BRANCH  11  12
+ATOM     12  C   UNL     1      68.894  20.827  14.535  1.00  0.00     0.302 C 
+ATOM     13  C   UNL     1      69.419  20.526  15.906  1.00  0.00     0.139 C 
+ATOM     14  O   UNL     1      69.180  20.130  13.567  1.00  0.00    -0.253 OA
+ENDBRANCH  11  12
+ENDBRANCH   9  11
+ENDBRANCH   6   9
+BRANCH   3  15
+ATOM     15  C   UNL     1      64.313  22.574   9.004  1.00  0.00     0.355 C 
+ATOM     16  O   UNL     1      63.243  23.153   9.120  1.00  0.00    -0.244 OA
+BRANCH  15  17
+ATOM     17  O   UNL     1      65.025  22.449   7.856  1.00  0.00    -0.457 OA
+BRANCH  17  18
+ATOM     18  C   UNL     1      64.334  22.931   6.701  1.00  0.00     0.260 C 
+BRANCH  18  19
+ATOM     19  C   UNL     1      65.344  23.634   5.846  1.00  0.00     0.006 C 
+ATOM     20  C   UNL     1      65.466  24.965   5.749  1.00  0.00     0.007 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  15  17
+ENDBRANCH   3  15
+TORSDOF 7
